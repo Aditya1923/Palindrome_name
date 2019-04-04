@@ -1,0 +1,20 @@
+import java.util.*;
+public class Palindrome_name{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int i,l
+String st
+char ch=0;
+System.out.println("Enter a name");
+st=sc.next();
+l=st.length();
+for(i=0;i<l;i++){
+ch=st.charAt(i);
+st1=ch+st1;
+}
+if(st1.equals(st))
+System.out.println("Palindrome name");
+else
+System.out.println("Not a Palindrome name");
+}
+}
